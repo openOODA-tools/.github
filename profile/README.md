@@ -14,7 +14,7 @@
 **Two Faces, One Engine:** Blistering native CLI speed for humans • Zero-leakage MCP for AI agents  
 Powered by the [openOODA](https://github.com/openOODA) sovereign systems language.
 
-[Website](https://openooda-tools.github.io/) • [GitHub](https://github.com/openOODA-tools) • [openOODA Core](https://openooda.org)
+[Website](https://tools.openooda.org/) • [GitHub](https://github.com/openOODA-tools) • [openOODA Core](https://openooda.org)
 
 </div>
 
@@ -26,11 +26,11 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 
 | Tool | Drop-in For | Parity & Capabilities | MCP Surface | Install One-Liner |
 |:---|:---|:---|:---|:---|
-| **[oosh](https://github.com/openOODA-tools/oosh)** | `bash` / `zsh` | Interactive sovereign shell, ambient daemon integration, dual POSIX/intent execution | Stdio IPC & daemons | `curl -fsSL https://openooda-tools.github.io/oosh/install.sh \| bash` |
-| **[oogrep](https://github.com/openOODA-tools/oogrep)** | `grep` / `ripgrep` | Recursive regex search, `.gitignore` skipping, column tracking, colored hunks | `oogrep --mcp` (`grep_search`) | `curl -fsSL https://openooda-tools.github.io/oogrep/install.sh \| bash` |
-| **[oodiff](https://github.com/openOODA-tools/oodiff)** | `diff` | Myers LCS algorithm, byte-for-byte GNU normal & unified (`-u`) diff parity | `oodiff --mcp` (`diff_files`) | `curl -fsSL https://openooda-tools.github.io/oodiff/install.sh \| bash` |
-| **[oofind](https://github.com/openOODA-tools/oofind)** | `find` | Fast directory traversal, glob filtering, `-print0`, streaming JSON Lines | `oofind --mcp` (`find_files`) | `curl -fsSL https://openooda-tools.github.io/oofind/install.sh \| bash` |
-| **[oojq](https://github.com/openOODA-tools/oojq)** | `jq` | 98% verified jq 1.8.1 parity, exact rational arithmetic, zero ambient authority | `oojq --mcp` (`jq_query`) | `curl -fsSL https://openooda-tools.github.io/oojq/install.sh \| bash` |
+| **[oosh](https://github.com/openOODA-tools/oosh)** | `bash` / `zsh` | Interactive sovereign shell, ambient daemon integration, dual POSIX/intent execution | Stdio IPC & daemons | `curl -fsSL https://tools.openooda.org/oosh/install.sh \| bash` |
+| **[oogrep](https://github.com/openOODA-tools/oogrep)** | `grep` / `ripgrep` | Recursive regex search, `.gitignore` skipping, column tracking, colored hunks | `oogrep --mcp` (`grep_search`) | `curl -fsSL https://tools.openooda.org/oogrep/install.sh \| bash` |
+| **[oodiff](https://github.com/openOODA-tools/oodiff)** | `diff` | Myers LCS algorithm, byte-for-byte GNU normal & unified (`-u`) diff parity | `oodiff --mcp` (`diff_files`) | `curl -fsSL https://tools.openooda.org/oodiff/install.sh \| bash` |
+| **[oofind](https://github.com/openOODA-tools/oofind)** | `find` | Fast directory traversal, glob filtering, `-print0`, streaming JSON Lines | `oofind --mcp` (`find_files`) | `curl -fsSL https://tools.openooda.org/oofind/install.sh \| bash` |
+| **[oojq](https://github.com/openOODA-tools/oojq)** | `jq` | 98% verified jq 1.8.1 parity, exact rational arithmetic, zero ambient authority | `oojq --mcp` (`jq_query`) | `curl -fsSL https://tools.openooda.org/oojq/install.sh \| bash` |
 | **[ootail](https://github.com/openOODA-tools/ootail)** | `tail -f` | Inotify stream follower, truncate-safe replay, multi-surface IPC *(WIP)* | `ootail --mcp` (`tail_stream`) | *In development* |
 
 ---

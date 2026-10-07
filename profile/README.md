@@ -31,7 +31,8 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oodiff](https://github.com/openOODA-tools/oodiff)** | `diff` | Myers LCS algorithm, byte-for-byte GNU normal & unified (`-u`) diff parity | `oodiff --mcp` (`diff_files`) | `curl -fsSL https://tools.openooda.org/oodiff/install.sh \| bash` |
 | **[oofind](https://github.com/openOODA-tools/oofind)** | `find` | Fast directory traversal, glob filtering, `-print0`, streaming JSON Lines | `oofind --mcp` (`find_files`) | `curl -fsSL https://tools.openooda.org/oofind/install.sh \| bash` |
 | **[oojq](https://github.com/openOODA-tools/oojq)** | `jq` | 98% verified jq 1.8.1 parity, exact rational arithmetic, zero ambient authority | `oojq --mcp` (`jq_query`) | `curl -fsSL https://tools.openooda.org/oojq/install.sh \| bash` |
-| **[ootail](https://github.com/openOODA-tools/ootail)** | `tail -f` | Inotify stream follower, truncate-safe replay, multi-surface IPC *(WIP)* | `ootail --mcp` (`tail_stream`) | *In development* |
+| **[ootail](https://github.com/openOODA-tools/ootail)** | `tail -f` | Inotify stream follower, truncate-safe replay, line windowing, oote themes | `ootail` IPC | `curl -fsSL https://tools.openooda.org/ootail/install.sh \| bash` |
+| **[oote](https://github.com/openOODA-tools/oote)** | theme engine | Sovereign styling engine, 25 themes, dual light/dark modes, 39 semantic tokens | Theme & mascot CLI | `curl -fsSL https://tools.openooda.org/oote/install.sh \| bash` |
 
 ---
 

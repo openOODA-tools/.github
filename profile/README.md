@@ -33,6 +33,9 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oojq](https://github.com/openOODA-tools/oojq)** | `jq` | 98% verified jq 1.8.1 parity, exact rational arithmetic, zero ambient authority | `oojq --mcp` (`jq_query`) | `curl -fsSL https://tools.openooda.org/oojq/install.sh \| bash` |
 | **[ootail](https://github.com/openOODA-tools/ootail)** | `tail -f` | Inotify stream follower, truncate-safe replay, line windowing, oote themes | `ootail` IPC | `curl -fsSL https://tools.openooda.org/ootail/install.sh \| bash` |
 | **[oote](https://github.com/openOODA-tools/oote)** | theme engine | Sovereign styling engine, 25 themes, dual light/dark modes, 39 semantic tokens | Theme & mascot CLI | `curl -fsSL https://tools.openooda.org/oote/install.sh \| bash` |
+| **[oofetch](https://github.com/openOODA-tools/oofetch)** | `fastfetch` / `neofetch` | System fetch, hardware posture, dynamic ASCII mascots, oote palette swatches | `oofetch --mcp` (`host_info`, `system_posture`) | `curl -fsSL https://tools.openooda.org/oofetch/install.sh \| bash` |
+| **[oocat](https://github.com/openOODA-tools/oocat)** | `bat` / `cat` | Capability-bounded syntax viewer, oote themes, line ranges, squeeze blanks | `oocat --mcp` (`oocat_view`, `oocat_highlight`) | `curl -fsSL https://tools.openooda.org/oocat/install.sh \| bash` |
+| **[ootop](https://github.com/openOODA-tools/ootop)** | `btop` / `top` | Real-time TUI dashboard, systemd slice grouping (`app`, `system`, `user`), load-reactive mascot moods | `ootop --mcp` (`system_metrics`, `process_list`, `systemd_slices`) | `curl -fsSL https://tools.openooda.org/ootop/install.sh \| bash` |
 
 ---
 

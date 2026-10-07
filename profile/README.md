@@ -36,6 +36,8 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oofetch](https://github.com/openOODA-tools/oofetch)** | `fastfetch` / `neofetch` | System fetch, hardware posture, dynamic ASCII mascots, oote palette swatches | `oofetch --mcp` (`host_info`, `system_posture`) | `curl -fsSL https://tools.openooda.org/oofetch/install.sh \| bash` |
 | **[oocat](https://github.com/openOODA-tools/oocat)** | `bat` / `cat` | Capability-bounded syntax viewer, oote themes, line ranges, squeeze blanks | `oocat --mcp` (`oocat_view`, `oocat_highlight`) | `curl -fsSL https://tools.openooda.org/oocat/install.sh \| bash` |
 | **[ootop](https://github.com/openOODA-tools/ootop)** | `btop` / `top` | Real-time TUI dashboard, systemd slice grouping (`app`, `system`, `user`), load-reactive mascot moods | `ootop --mcp` (`system_metrics`, `process_list`, `systemd_slices`) | `curl -fsSL https://tools.openooda.org/ootop/install.sh \| bash` |
+| **[oofzf](https://github.com/openOODA-tools/oofzf)** | `fzf` | Sovereign interactive fuzzy finder, subsequence scoring, oote palettes | `oofzf --mcp` (`fuzzy_match`, `rank_candidates`) | `curl -fsSL https://tools.openooda.org/oofzf/install.sh \| bash` |
+| **[ools](https://github.com/openOODA-tools/ools)** | `ls` / `eza` | Sovereign directory lister, file kind classification, oote themes | `ools --mcp` (`list_directory`, `stat_entry`) | `curl -fsSL https://tools.openooda.org/ools/install.sh \| bash` |
 
 ---
 

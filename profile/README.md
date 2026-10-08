@@ -65,6 +65,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobase58](https://github.com/openOODA-tools/oobase58)** | `base58` | Cryptographic Base58 encoder and decoder with Bitcoin, Ripple, and Flickr alphabets | `oobase58 --mcp` (`b58_encode`, `b58_decode`, `b58_alphabets`, `b58_stats`) | `curl -fsSL https://tools.openooda.org/oobase58/install.sh \| bash` |
 | **[oobase64](https://github.com/openOODA-tools/oobase64)** | `base64` | SIMD-accelerated RFC 4648 Base64 data encoder and decoder with URL-safe variants | `oobase64 --mcp` (`b64_encode`, `b64_decode`, `b64_alphabets`, `b64_stats`) | `curl -fsSL https://tools.openooda.org/oobase64/install.sh \| bash` |
 | **[oobasename](https://github.com/openOODA-tools/oobasename)** | `basename` | Strips directory prefixes and optional file extensions from path strings | `oobasename --mcp` (`basename_strip`, `basename_batch`, `basename_stats`) | `curl -fsSL https://tools.openooda.org/oobasename/install.sh \| bash` |
+| **[oobash](https://github.com/openOODA-tools/oobash)** | `bash` / `sh` | Sovereign POSIX shell compatibility compiler and capability security auditor | `oobash --mcp` (`bash_audit`, `bash_transpile`, `bash_ast`, `bash_stats`) | `curl -fsSL https://tools.openooda.org/oobash/install.sh \| bash` |
 
 ---
 

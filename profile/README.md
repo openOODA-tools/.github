@@ -66,6 +66,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobase64](https://github.com/openOODA-tools/oobase64)** | `base64` | SIMD-accelerated RFC 4648 Base64 data encoder and decoder with URL-safe variants | `oobase64 --mcp` (`b64_encode`, `b64_decode`, `b64_alphabets`, `b64_stats`) | `curl -fsSL https://tools.openooda.org/oobase64/install.sh \| bash` |
 | **[oobasename](https://github.com/openOODA-tools/oobasename)** | `basename` | Strips directory prefixes and optional file extensions from path strings | `oobasename --mcp` (`basename_strip`, `basename_batch`, `basename_stats`) | `curl -fsSL https://tools.openooda.org/oobasename/install.sh \| bash` |
 | **[oobash](https://github.com/openOODA-tools/oobash)** | `bash` / `sh` | Sovereign POSIX shell compatibility compiler and capability security auditor | `oobash --mcp` (`bash_audit`, `bash_transpile`, `bash_ast`, `bash_stats`) | `curl -fsSL https://tools.openooda.org/oobash/install.sh \| bash` |
+| **[oobatch](https://github.com/openOODA-tools/oobatch)** | `batch` / `at -b` | Non-interactive batch job manager queueing tasks when system load factor drops | `oobatch --mcp` (`batch_enqueue`, `batch_list`, `batch_cancel`, `batch_load`, `batch_stats`) | `curl -fsSL https://tools.openooda.org/oobatch/install.sh \| bash` |
 
 ---
 

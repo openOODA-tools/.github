@@ -63,6 +63,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobar](https://github.com/openOODA-tools/oobar)** | `pv` / `tqdm` | Renders smooth terminal progress bars with ETA, throughput, and percent gauges | `oobar --mcp` (`bar_render`, `bar_styles`, `bar_eta`, `bar_stats`) | `curl -fsSL https://tools.openooda.org/oobar/install.sh \| bash` |
 | **[oobase32](https://github.com/openOODA-tools/oobase32)** | `base32` | Sovereign Base32 encoder and decoder with Crockford, Extended Hex, and RFC 4648 alphabets | `oobase32 --mcp` (`b32_encode`, `b32_decode`, `b32_alphabets`, `b32_stats`) | `curl -fsSL https://tools.openooda.org/oobase32/install.sh \| bash` |
 | **[oobase58](https://github.com/openOODA-tools/oobase58)** | `base58` | Cryptographic Base58 encoder and decoder with Bitcoin, Ripple, and Flickr alphabets | `oobase58 --mcp` (`b58_encode`, `b58_decode`, `b58_alphabets`, `b58_stats`) | `curl -fsSL https://tools.openooda.org/oobase58/install.sh \| bash` |
+| **[oobase64](https://github.com/openOODA-tools/oobase64)** | `base64` | SIMD-accelerated RFC 4648 Base64 data encoder and decoder with URL-safe variants | `oobase64 --mcp` (`b64_encode`, `b64_decode`, `b64_alphabets`, `b64_stats`) | `curl -fsSL https://tools.openooda.org/oobase64/install.sh \| bash` |
 
 ---
 

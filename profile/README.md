@@ -79,6 +79,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocap](https://github.com/openOODA-tools/oocap)** | `capsh` / `getpcaps` | Inspects, drops, and verifies Linux thread capability bounding sets | `oocap --mcp` (`cap_inspect`, `cap_decode`, `cap_encode`, `cap_audit`, `cap_systemd`) | `curl -fsSL https://tools.openooda.org/oocap/install.sh \| bash` |
 | **[oocbor](https://github.com/openOODA-tools/oocbor)** | `cbor-diag` / `libcbor` | Concise Binary Object Representation encoder, diagnostic viewer, and decoder (RFC 8949) | `oocbor --mcp` (`cbor_decode`, `cbor_encode`, `cbor_inspect`, `cbor_diag`, `cbor_stats`) | `curl -fsSL https://tools.openooda.org/oocbor/install.sh \| bash` |
 | **[oocert](https://github.com/openOODA-tools/oocert)** | `update-ca-trust` / `certutil` | Manages local system trust roots under /etc/ssl/certs/ with revocation checking | `oocert --mcp` (`cert_inspect`, `cert_verify`, `cert_store_list`, `cert_audit`, `cert_fingerprint`) | `curl -fsSL https://tools.openooda.org/oocert/install.sh \| bash` |
+| **[oocgroup](https://github.com/openOODA-tools/oocgroup)** | `cgcreate` / `systemd-run` | Sovereign cgroup v2 resource manager, controller inspector, and systemd drop-in synthesizer | `oocgroup --mcp` (`cgroup_inspect`, `cgroup_limits`, `cgroup_systemd`, `cgroup_audit`, `cgroup_tree`) | `curl -fsSL https://tools.openooda.org/oocgroup/install.sh \| bash` |
 
 ---
 

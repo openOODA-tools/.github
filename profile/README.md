@@ -45,6 +45,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oops](https://github.com/openOODA-tools/oops)** | `ps` / `pstree` | Process tree visualizer, systemd slice grouping (`system.slice`, `user.slice`), POSIX signals | `oops --mcp` (`ps_list`, `ps_tree`, `ps_kill`) | `curl -fsSL https://tools.openooda.org/oops/install.sh \| bash` |
 | **[oocurl](https://github.com/openOODA-tools/oocurl)** | `curl` | Capability-bounded HTTP/API client, status classification, syntax-highlighted responses | `oocurl --mcp` (`http_request`, `parse_url`) | `curl -fsSL https://tools.openooda.org/oocurl/install.sh \| bash` |
 | **[oowatch](https://github.com/openOODA-tools/oowatch)** | `watch` | Continuous command scheduler, ANSI delta diff highlighting via oote themes, iteration bounds | `oowatch --mcp` (`watch_poll`, `watch_diff`) | `curl -fsSL https://tools.openooda.org/oowatch/install.sh \| bash` |
+| **[oomcp](https://github.com/openOODA-tools/oomcp)** | Universal MCP gateway / orchestrator | Multi-tool routing & dynamic discovery, multi-server stdio proxying, schema aggregation | `oomcp serve` / `oomcp list` | `curl -fsSL https://tools.openooda.org/oomcp/install.sh \| bash` |
 
 ---
 

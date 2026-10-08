@@ -84,6 +84,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oochecksum](https://github.com/openOODA-tools/oochecksum)** | `sha256sum` / `md5sum` | Sovereign integrity verifier validating BSD and GNU style checksum manifests | `oochecksum --mcp` (`checksum_verify`, `checksum_generate`, `checksum_detect_format`, `checksum_audit_tree`, `checksum_hash`) | `curl -fsSL https://tools.openooda.org/oochecksum/install.sh \| bash` |
 | **[oochgrp](https://github.com/openOODA-tools/oochgrp)** | `chgrp` | Updates primary and auxiliary group associations with systemd-tmpfiles declarative synthesis | `oochgrp --mcp` (`chgrp_resolve`, `chgrp_inspect`, `chgrp_plan`, `chgrp_tmpfiles`, `chgrp_audit`) | `curl -fsSL https://tools.openooda.org/oochgrp/install.sh \| bash` |
 | **[oochmod](https://github.com/openOODA-tools/oochmod)** | `chmod` | Applies octal and symbolic permission masks with systemd-tmpfiles declarative synthesis | `oochmod --mcp` (`chmod_parse`, `chmod_inspect`, `chmod_plan`, `chmod_tmpfiles`, `chmod_audit`) | `curl -fsSL https://tools.openooda.org/oochmod/install.sh \| bash` |
+| **[oochown](https://github.com/openOODA-tools/oochown)** | `chown` | Changes user and group ownership of filesystem objects with systemd-tmpfiles declarative synthesis | `oochown --mcp` (`chown_resolve`, `chown_inspect`, `chown_plan`, `chown_tmpfiles`, `chown_audit`) | `curl -fsSL https://tools.openooda.org/oochown/install.sh \| bash` |
 
 ---
 

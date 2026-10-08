@@ -99,6 +99,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocron](https://github.com/openOODA-tools/oocron)** | `cron` / `crond` | Pure systemd timer scheduler replacing legacy cron with journald integration and hardened oneshot services in pure openOODA | `oocron --mcp` (`cron_to_systemd`, `cron_validate`, `cron_macros`, `cron_demo`) | `curl -fsSL https://tools.openooda.org/oocron/install.sh \| bash` |
 | **[oocsplt](https://github.com/openOODA-tools/oocsplt)** | `csplit` | POSIX context splitter and stream partitioner matching regex delimiters and line bounds in pure openOODA | `oocsplt --mcp` (`csplt_split`, `csplt_preview`, `csplt_by_lines`, `csplt_by_pattern`, `csplt_demo`) | `curl -fsSL https://tools.openooda.org/oocsplt/install.sh \| bash` |
 | **[oocsv](https://github.com/openOODA-tools/oocsv)** | `csvcut` / `xsv` | High-speed RFC 4180 CSV parser with SQL-like query filtering, column projection, and header manipulation in pure openOODA | `oocsv --mcp` (`csv_parse`, `csv_filter`, `csv_select`, `csv_headers`, `csv_demo`) | `curl -fsSL https://tools.openooda.org/oocsv/install.sh \| bash` |
+| **[oocut](https://github.com/openOODA-tools/oocut)** | `cut` | POSIX column, byte, character, and delimiter-aware field stream extractor in pure openOODA | `oocut --mcp` (`cut_fields`, `cut_bytes`, `cut_characters`, `cut_slice`, `cut_demo`) | `curl -fsSL https://tools.openooda.org/oocut/install.sh \| bash` |
 
 ---
 

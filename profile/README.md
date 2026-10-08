@@ -94,6 +94,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocomm](https://github.com/openOODA-tools/oocomm)** | `comm` | Sovereign line comparator sorting two streams into column 1, column 2, and mutual column 3 with order verification | `oocomm --mcp` (`comm_compare`, `comm_common`, `comm_unique1`, `comm_unique2`, `comm_stats`) | `curl -fsSL https://tools.openooda.org/oocomm/install.sh \| bash` |
 | **[oocp](https://github.com/openOODA-tools/oocp)** | `cp` | Zero-copy clone-capable file and directory copier using io_uring, copy_file_range, and pure openOODA | `oocp --mcp` (`cp_copy_file`, `cp_copy_tree`, `cp_reflink`, `cp_inspect_source`, `cp_dry_run`) | `curl -fsSL https://tools.openooda.org/oocp/install.sh \| bash` |
 | **[oocpio](https://github.com/openOODA-tools/oocpio)** | `cpio` | Initramfs cpio format unpacker and archiver for Linux kernel boot images in pure openOODA | `oocpio --mcp` (`cpio_list_archive`, `cpio_extract_archive`, `cpio_create_archive`, `cpio_inspect_header`, `cpio_stats`) | `curl -fsSL https://tools.openooda.org/oocpio/install.sh \| bash` |
+| **[oocpuinfo](https://github.com/openOODA-tools/oocpuinfo)** | `lscpu` | Hardware CPU topology, instruction set extensions, cache geometry, and vulnerability mitigation auditor in pure openOODA | `oocpuinfo --mcp` (`cpuinfo_summary`, `cpuinfo_topology`, `cpuinfo_flags`, `cpuinfo_vulnerabilities`, `cpuinfo_cache`, `cpuinfo_demo`) | `curl -fsSL https://tools.openooda.org/oocpuinfo/install.sh \| bash` |
 
 ---
 

@@ -120,6 +120,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oofree](https://github.com/openOODA-tools/oofree)** | `free` | Sovereign memory auditor and kernel RAM/swap telemetry engine with human scaling and pressure metrics in pure openOODA | `oofree --mcp` (`free_memory`, `free_swap`, `free_detailed`, `free_pressure`, `free_demo`) | `curl -fsSL https://tools.openooda.org/oofree/install.sh \| bash` |
 | **[oofsck](https://github.com/openOODA-tools/oofsck)** | `fsck` / `e2fsck` | Sovereign filesystem consistency verifier and superblock integrity auditor in pure openOODA | `oofsck --mcp` (`fsck_inspect_superblock`, `fsck_verify_inodes`, `fsck_audit_partition`, `fsck_check_integrity`, `fsck_demo`) | `curl -fsSL https://tools.openooda.org/oofsck/install.sh \| bash` |
 | **[oogitdiff](https://github.com/openOODA-tools/oogitdiff)** | `git diff` | Sovereign git tree differ and working tree delta engine with diffstats and hunk inspection in pure openOODA | `oogitdiff --mcp` (`gitdiff_status`, `gitdiff_diff`, `gitdiff_stat`, `gitdiff_tree`, `gitdiff_demo`) | `curl -fsSL https://tools.openooda.org/oogitdiff/install.sh \| bash` |
+| **[ooglyph](https://github.com/openOODA-tools/ooglyph)** | `fc-list` / `glyph` | Sovereign glyph search and viewer for Nerd Font symbols and Unicode iconography in pure openOODA | `ooglyph --mcp` (`glyph_search`, `glyph_lookup`, `glyph_categories`, `glyph_table`, `glyph_demo`) | `curl -fsSL https://tools.openooda.org/ooglyph/install.sh \| bash` |
 
 ---
 

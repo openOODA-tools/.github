@@ -46,6 +46,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocurl](https://github.com/openOODA-tools/oocurl)** | `curl` | Capability-bounded HTTP/API client, status classification, syntax-highlighted responses | `oocurl --mcp` (`http_request`, `parse_url`) | `curl -fsSL https://tools.openooda.org/oocurl/install.sh \| bash` |
 | **[oowatch](https://github.com/openOODA-tools/oowatch)** | `watch` | Continuous command scheduler, ANSI delta diff highlighting via oote themes, iteration bounds | `oowatch --mcp` (`watch_poll`, `watch_diff`) | `curl -fsSL https://tools.openooda.org/oowatch/install.sh \| bash` |
 | **[oomcp](https://github.com/openOODA-tools/oomcp)** | Universal MCP gateway / orchestrator | Multi-tool routing & dynamic discovery, multi-server stdio proxying, schema aggregation | `oomcp serve` / `oomcp list` | `curl -fsSL https://tools.openooda.org/oomcp/install.sh \| bash` |
+| **[oo7z](https://github.com/openOODA-tools/oo7z)** | `7z` / `7za` | 7-Zip multi-format container unpacker and lister, anti-zip-slip safe extraction | `oo7z --mcp` (`oo7z_inspect`, `oo7z_test`, `oo7z_verify_path`) | `curl -fsSL https://tools.openooda.org/oo7z/install.sh \| bash` |
 
 ---
 

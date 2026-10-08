@@ -112,6 +112,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooexpand](https://github.com/openOODA-tools/ooexpand)** | `expand` | Sovereign POSIX tab-to-spaces expander, whitespace visualizer, and indentation auditor with custom tab-stop lists in pure openOODA | `ooexpand --mcp` (`expand_text`, `expand_file`, `expand_analyze`, `expand_visualize`, `expand_demo`) | `curl -fsSL https://tools.openooda.org/ooexpand/install.sh \| bash` |
 | **[oofalse](https://github.com/openOODA-tools/oofalse)** | `false` | Sovereign POSIX false utility and deterministic exit code analyzer with signal mapping and pipeline simulation in pure openOODA | `oofalse --mcp` (`false_eval`, `false_exit_code`, `false_assert`, `false_simulate`, `false_demo`) | `curl -fsSL https://tools.openooda.org/oofalse/install.sh \| bash` |
 | **[oofigure](https://github.com/openOODA-tools/oofigure)** | `boxes` / `figlet` | Sovereign Unicode box-drawing tables, callouts, and code borders with streaming MCP in pure openOODA | `oofigure --mcp` (`figure_box`, `figure_callout`, `figure_code`, `figure_table`, `figure_styles`, `figure_demo`) | `curl -fsSL https://tools.openooda.org/oofigure/install.sh \| bash` |
+| **[oofile](https://github.com/openOODA-tools/oofile)** | `file` / `libmagic` | Sovereign magic-byte file format, MIME type, and encoding identifier in pure openOODA | `oofile --mcp` (`file_identify`, `file_mime_type`, `file_detect_bytes`, `file_inspect_magic`, `file_demo`) | `curl -fsSL https://tools.openooda.org/oofile/install.sh \| bash` |
 
 ---
 

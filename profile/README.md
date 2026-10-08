@@ -122,6 +122,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oogitdiff](https://github.com/openOODA-tools/oogitdiff)** | `git diff` | Sovereign git tree differ and working tree delta engine with diffstats and hunk inspection in pure openOODA | `oogitdiff --mcp` (`gitdiff_status`, `gitdiff_diff`, `gitdiff_stat`, `gitdiff_tree`, `gitdiff_demo`) | `curl -fsSL https://tools.openooda.org/oogitdiff/install.sh \| bash` |
 | **[ooglyph](https://github.com/openOODA-tools/ooglyph)** | `fc-list` / `glyph` | Sovereign glyph search and viewer for Nerd Font symbols and Unicode iconography in pure openOODA | `ooglyph --mcp` (`glyph_search`, `glyph_lookup`, `glyph_categories`, `glyph_table`, `glyph_demo`) | `curl -fsSL https://tools.openooda.org/ooglyph/install.sh \| bash` |
 | **[oogradient](https://github.com/openOODA-tools/oogradient)** | `lolcat` / `gradient` | Sovereign TrueColor gradient interpolation engine with 8 multi-stop palettes and custom hex bounds in pure openOODA | `oogradient --mcp` (`gradient_apply`, `gradient_interpolate`, `gradient_presets`, `gradient_preview`, `gradient_demo`) | `curl -fsSL https://tools.openooda.org/oogradient/install.sh \| bash` |
+| **[oogrepz](https://github.com/openOODA-tools/oogrepz)** | `zgrep` / `bzgrep` | Sovereign compressed stream search across gzip, bzip2, xz, and zstd archives with zero ambient authority in pure openOODA | `oogrepz --mcp` (`grepz_search`, `grepz_count`, `grepz_detect`, `grepz_files`, `grepz_demo`) | `curl -fsSL https://tools.openooda.org/oogrepz/install.sh \| bash` |
 
 ---
 

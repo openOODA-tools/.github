@@ -127,6 +127,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oogzip](https://github.com/openOODA-tools/oogzip)** | `gzip` / `pigz` | Sovereign DEFLATE compression engine and RFC 1952 container with stream headers in pure openOODA | `oogzip --mcp` (`gzip_compress`, `gzip_decompress`, `gzip_inspect`, `gzip_test`, `gzip_demo`) | `curl -fsSL https://tools.openooda.org/oogzip/install.sh \| bash` |
 | **[oohash](https://github.com/openOODA-tools/oohash)** | `b3sum` / `sha256sum` | Sovereign simultaneous multi-algorithm cryptographic digest engine (BLAKE3, SHA-256, SHA3-512) in pure openOODA | `oohash --mcp` (`hash_digest`, `hash_file`, `hash_verify`, `hash_benchmark`, `hash_demo`) | `curl -fsSL https://tools.openooda.org/oohash/install.sh \| bash` |
 | **[oohead](https://github.com/openOODA-tools/oohead)** | `head` | Sovereign zero-copy prefix line and byte slicer with early pipe closure semantics in pure openOODA | `oohead --mcp` (`head_lines`, `head_bytes`, `head_file`, `head_sample`, `head_demo`) | `curl -fsSL https://tools.openooda.org/oohead/install.sh \| bash` |
+| **[oohex](https://github.com/openOODA-tools/oohex)** | `hexdump` / `xxd` | Sovereign color-coded hexadecimal viewer with canonical ASCII sidebar and delta highlighting in pure openOODA | `oohex --mcp` (`hex_dump`, `hex_inspect`, `hex_diff`, `hex_stats`, `hex_demo`) | `curl -fsSL https://tools.openooda.org/oohex/install.sh \| bash` |
 
 ---
 

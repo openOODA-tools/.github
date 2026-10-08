@@ -61,6 +61,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobackup](https://github.com/openOODA-tools/oobackup)** | `rsync` / `restic` | Point-in-time snapshot coordinator creating deduplicated, content-addressed file trees | `oobackup --mcp` (`backup_create`, `backup_list`, `backup_verify`, `backup_diff`, `backup_stats`) | `curl -fsSL https://tools.openooda.org/oobackup/install.sh \| bash` |
 | **[oobanner](https://github.com/openOODA-tools/oobanner)** | `figlet` / `banner` | Renders stylized ASCII art banners, typography, and logos in the terminal | `oobanner --mcp` (`banner_render`, `banner_fonts`, `banner_borders`, `banner_stats`) | `curl -fsSL https://tools.openooda.org/oobanner/install.sh \| bash` |
 | **[oobar](https://github.com/openOODA-tools/oobar)** | `pv` / `tqdm` | Renders smooth terminal progress bars with ETA, throughput, and percent gauges | `oobar --mcp` (`bar_render`, `bar_styles`, `bar_eta`, `bar_stats`) | `curl -fsSL https://tools.openooda.org/oobar/install.sh \| bash` |
+| **[oobase32](https://github.com/openOODA-tools/oobase32)** | `base32` | Sovereign Base32 encoder and decoder with Crockford, Extended Hex, and RFC 4648 alphabets | `oobase32 --mcp` (`b32_encode`, `b32_decode`, `b32_alphabets`, `b32_stats`) | `curl -fsSL https://tools.openooda.org/oobase32/install.sh \| bash` |
 
 ---
 

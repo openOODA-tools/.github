@@ -129,6 +129,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oohead](https://github.com/openOODA-tools/oohead)** | `head` | Sovereign zero-copy prefix line and byte slicer with early pipe closure semantics in pure openOODA | `oohead --mcp` (`head_lines`, `head_bytes`, `head_file`, `head_sample`, `head_demo`) | `curl -fsSL https://tools.openooda.org/oohead/install.sh \| bash` |
 | **[oohex](https://github.com/openOODA-tools/oohex)** | `hexdump` / `xxd` | Sovereign color-coded hexadecimal viewer with canonical ASCII sidebar and delta highlighting in pure openOODA | `oohex --mcp` (`hex_dump`, `hex_inspect`, `hex_diff`, `hex_stats`, `hex_demo`) | `curl -fsSL https://tools.openooda.org/oohex/install.sh \| bash` |
 | **[oohistory](https://github.com/openOODA-tools/oohistory)** | `history` | Sovereign tamper-evident command history with Merkle hash chaining and secret redaction in pure openOODA | `oohistory --mcp` (`history_list`, `history_search`, `history_append`, `history_verify`, `history_demo`) | `curl -fsSL https://tools.openooda.org/oohistory/install.sh \| bash` |
+| **[oohost](https://github.com/openOODA-tools/oohost)** | `host` / DNS | Sovereign quick DNS address resolver performing forward and reverse host conversions in pure openOODA | `oohost --mcp` (`host_resolve`, `host_reverse`, `host_records`, `host_inspect`, `host_demo`) | `curl -fsSL https://tools.openooda.org/oohost/install.sh \| bash` |
 
 ---
 

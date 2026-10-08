@@ -78,6 +78,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobzip2](https://github.com/openOODA-tools/oobzip2)** | `bzip2` / `bunzip2` | Burrows-Wheeler block sorting text compression engine with integrity checks | `oobzip2 --mcp` (`bzip2_compress`, `bzip2_decompress`, `bzip2_inspect`, `bzip2_bwt`, `bzip2_stats`) | `curl -fsSL https://tools.openooda.org/oobzip2/install.sh \| bash` |
 | **[oocap](https://github.com/openOODA-tools/oocap)** | `capsh` / `getpcaps` | Inspects, drops, and verifies Linux thread capability bounding sets | `oocap --mcp` (`cap_inspect`, `cap_decode`, `cap_encode`, `cap_audit`, `cap_systemd`) | `curl -fsSL https://tools.openooda.org/oocap/install.sh \| bash` |
 | **[oocbor](https://github.com/openOODA-tools/oocbor)** | `cbor-diag` / `libcbor` | Concise Binary Object Representation encoder, diagnostic viewer, and decoder (RFC 8949) | `oocbor --mcp` (`cbor_decode`, `cbor_encode`, `cbor_inspect`, `cbor_diag`, `cbor_stats`) | `curl -fsSL https://tools.openooda.org/oocbor/install.sh \| bash` |
+| **[oocert](https://github.com/openOODA-tools/oocert)** | `update-ca-trust` / `certutil` | Manages local system trust roots under /etc/ssl/certs/ with revocation checking | `oocert --mcp` (`cert_inspect`, `cert_verify`, `cert_store_list`, `cert_audit`, `cert_fingerprint`) | `curl -fsSL https://tools.openooda.org/oocert/install.sh \| bash` |
 
 ---
 

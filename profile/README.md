@@ -71,6 +71,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobiew](https://github.com/openOODA-tools/oobiew)** | `biew` / `objdump` | Interactive binary and ELF executable dissector showing headers, symbols, and code | `oobiew --mcp` (`biew_detect`, `biew_elf`, `biew_hexdump`, `biew_stats`) | `curl -fsSL https://tools.openooda.org/oobiew/install.sh \| bash` |
 | **[oobinary](https://github.com/openOODA-tools/oobinary)** | `dd` / `xxd` / bit tools | Bit-level endianness converter, bitmask applicator, and stream aligner | `oobinary --mcp` (`binary_endian`, `binary_mask`, `binary_align`, `binary_bits`, `binary_stats`) | `curl -fsSL https://tools.openooda.org/oobinary/install.sh \| bash` |
 | **[oobindiff](https://github.com/openOODA-tools/oobindiff)** | `cmp` / `radiff2` | Structural binary differ identifying patch blocks and byte sequence displacements | `oobindiff --mcp` (`bindiff_compare`, `bindiff_hunks`, `bindiff_similarity`, `bindiff_stats`) | `curl -fsSL https://tools.openooda.org/oobindiff/install.sh \| bash` |
+| **[ooborder](https://github.com/openOODA-tools/ooborder)** | `boxes` / border tools | Wraps stdin/file text blocks inside configurable border frames with titles and alignment | `ooborder --mcp` (`border_wrap`, `border_styles`, `border_stats`) | `curl -fsSL https://tools.openooda.org/ooborder/install.sh \| bash` |
 
 ---
 

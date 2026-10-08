@@ -118,6 +118,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oofmt](https://github.com/openOODA-tools/oofmt)** | `fmt` / `fold` | Sovereign optimal paragraph reformer, gutter aligner, and text reflower with crown margin preservation in pure openOODA | `oofmt --mcp` (`fmt_format_text`, `fmt_reflow_paragraph`, `fmt_inspect_margins`, `fmt_strip_prefixes`, `fmt_demo`) | `curl -fsSL https://tools.openooda.org/oofmt/install.sh \| bash` |
 | **[oofold](https://github.com/openOODA-tools/oofold)** | `fold` | Sovereign fixed-width line folder and terminal text wrapping coordinator with space-breaking heuristics in pure openOODA | `oofold --mcp` (`fold_wrap_text`, `fold_stream_lines`, `fold_strip_ansi`, `fold_inspect_line_lengths`, `fold_demo`) | `curl -fsSL https://tools.openooda.org/oofold/install.sh \| bash` |
 | **[oofree](https://github.com/openOODA-tools/oofree)** | `free` | Sovereign memory auditor and kernel RAM/swap telemetry engine with human scaling and pressure metrics in pure openOODA | `oofree --mcp` (`free_memory`, `free_swap`, `free_detailed`, `free_pressure`, `free_demo`) | `curl -fsSL https://tools.openooda.org/oofree/install.sh \| bash` |
+| **[oofsck](https://github.com/openOODA-tools/oofsck)** | `fsck` / `e2fsck` | Sovereign filesystem consistency verifier and superblock integrity auditor in pure openOODA | `oofsck --mcp` (`fsck_inspect_superblock`, `fsck_verify_inodes`, `fsck_audit_partition`, `fsck_check_integrity`, `fsck_demo`) | `curl -fsSL https://tools.openooda.org/oofsck/install.sh \| bash` |
 
 ---
 

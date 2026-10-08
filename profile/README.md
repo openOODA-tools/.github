@@ -52,6 +52,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooapparmor](https://github.com/openOODA-tools/ooapparmor)** | `apparmor_parser` | Capability-bounded AppArmor profile generator & confinement auditor, negative trust enforcement | `ooapparmor --mcp` (`apparmor_generate`, `apparmor_verify`) | `curl -fsSL https://tools.openooda.org/ooapparmor/install.sh \| bash` |
 | **[ooarchive](https://github.com/openOODA-tools/ooarchive)** | `tar` / `cpio` / `ar` | Deterministic reproducible archive builder, byte-for-byte outputs across TAR/CPIO/AR | `ooarchive --mcp` (`archive_list`, `archive_inspect`, `archive_verify_path`) | `curl -fsSL https://tools.openooda.org/ooarchive/install.sh \| bash` |
 | **[ooarp](https://github.com/openOODA-tools/ooarp)** | `arp` / `ip neigh` | Capability-bounded ARP cache & neighbor discovery auditor, duplicate MAC poisoning detection | `ooarp --mcp` (`arp_list`, `arp_audit`, `arp_validate_mac`) | `curl -fsSL https://tools.openooda.org/ooarp/install.sh \| bash` |
+| **[ooastdiff](https://github.com/openOODA-tools/ooastdiff)** | AST syntax differ | Language-agnostic AST syntax differ with token LCS alignment, comment/whitespace insensitivity | `ooastdiff --mcp` (`astdiff_compare`, `astdiff_tokenize`, `astdiff_check_identity`) | `curl -fsSL https://tools.openooda.org/ooastdiff/install.sh \| bash` |
 
 ---
 

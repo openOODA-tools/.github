@@ -55,6 +55,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooastdiff](https://github.com/openOODA-tools/ooastdiff)** | AST syntax differ | Language-agnostic AST syntax differ with token LCS alignment, comment/whitespace insensitivity | `ooastdiff --mcp` (`astdiff_compare`, `astdiff_tokenize`, `astdiff_check_identity`) | `curl -fsSL https://tools.openooda.org/ooastdiff/install.sh \| bash` |
 | **[ooat](https://github.com/openOODA-tools/ooat)** | `at` / `batch` | Single-run scheduled command coordinator backed by transient systemd timer units | `ooat --mcp` (`at_schedule`, `at_parse_time`, `at_cancel`, `at_list`) | `curl -fsSL https://tools.openooda.org/ooat/install.sh \| bash` |
 | **[ooattest](https://github.com/openOODA-tools/ooattest)** | `tpm2_pcrread` / `tpm2_checkquote` | Attests system state and measured boot hashes using TPM2 hardware security chips | `ooattest --mcp` (`attest_status`, `attest_pcrs`, `attest_verify`, `attest_hash_pcr`) | `curl -fsSL https://tools.openooda.org/ooattest/install.sh \| bash` |
+| **[ooaudit](https://github.com/openOODA-tools/ooaudit)** | `auditd` / `syscheck` | Immutable audit recorder logging system calls, IO streams, and agent decisions | `ooaudit --mcp` (`audit_record`, `audit_verify`, `audit_query`, `audit_stats`) | `curl -fsSL https://tools.openooda.org/ooaudit/install.sh \| bash` |
 
 ---
 

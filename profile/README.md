@@ -59,6 +59,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooawk](https://github.com/openOODA-tools/ooawk)** | `awk` / `gawk` | Data-driven pattern scanning and text processing language with exact arithmetic | `ooawk --mcp` (`awk_eval`, `awk_filter`, `awk_project`, `awk_stats`) | `curl -fsSL https://tools.openooda.org/ooawk/install.sh \| bash` |
 | **[oob3sum](https://github.com/openOODA-tools/oob3sum)** | `b3sum` | Blistering BLAKE3 tree hasher achieving multi-gigabyte per second throughput | `oob3sum --mcp` (`b3_hash`, `b3_verify`, `b3_stats`) | `curl -fsSL https://tools.openooda.org/oob3sum/install.sh \| bash` |
 | **[oobackup](https://github.com/openOODA-tools/oobackup)** | `rsync` / `restic` | Point-in-time snapshot coordinator creating deduplicated, content-addressed file trees | `oobackup --mcp` (`backup_create`, `backup_list`, `backup_verify`, `backup_diff`, `backup_stats`) | `curl -fsSL https://tools.openooda.org/oobackup/install.sh \| bash` |
+| **[oobanner](https://github.com/openOODA-tools/oobanner)** | `figlet` / `banner` | Renders stylized ASCII art banners, typography, and logos in the terminal | `oobanner --mcp` (`banner_render`, `banner_fonts`, `banner_borders`, `banner_stats`) | `curl -fsSL https://tools.openooda.org/oobanner/install.sh \| bash` |
 
 ---
 

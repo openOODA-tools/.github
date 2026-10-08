@@ -119,6 +119,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oofold](https://github.com/openOODA-tools/oofold)** | `fold` | Sovereign fixed-width line folder and terminal text wrapping coordinator with space-breaking heuristics in pure openOODA | `oofold --mcp` (`fold_wrap_text`, `fold_stream_lines`, `fold_strip_ansi`, `fold_inspect_line_lengths`, `fold_demo`) | `curl -fsSL https://tools.openooda.org/oofold/install.sh \| bash` |
 | **[oofree](https://github.com/openOODA-tools/oofree)** | `free` | Sovereign memory auditor and kernel RAM/swap telemetry engine with human scaling and pressure metrics in pure openOODA | `oofree --mcp` (`free_memory`, `free_swap`, `free_detailed`, `free_pressure`, `free_demo`) | `curl -fsSL https://tools.openooda.org/oofree/install.sh \| bash` |
 | **[oofsck](https://github.com/openOODA-tools/oofsck)** | `fsck` / `e2fsck` | Sovereign filesystem consistency verifier and superblock integrity auditor in pure openOODA | `oofsck --mcp` (`fsck_inspect_superblock`, `fsck_verify_inodes`, `fsck_audit_partition`, `fsck_check_integrity`, `fsck_demo`) | `curl -fsSL https://tools.openooda.org/oofsck/install.sh \| bash` |
+| **[oogitdiff](https://github.com/openOODA-tools/oogitdiff)** | `git diff` | Sovereign git tree differ and working tree delta engine with diffstats and hunk inspection in pure openOODA | `oogitdiff --mcp` (`gitdiff_status`, `gitdiff_diff`, `gitdiff_stat`, `gitdiff_tree`, `gitdiff_demo`) | `curl -fsSL https://tools.openooda.org/oogitdiff/install.sh \| bash` |
 
 ---
 

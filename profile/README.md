@@ -72,6 +72,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobinary](https://github.com/openOODA-tools/oobinary)** | `dd` / `xxd` / bit tools | Bit-level endianness converter, bitmask applicator, and stream aligner | `oobinary --mcp` (`binary_endian`, `binary_mask`, `binary_align`, `binary_bits`, `binary_stats`) | `curl -fsSL https://tools.openooda.org/oobinary/install.sh \| bash` |
 | **[oobindiff](https://github.com/openOODA-tools/oobindiff)** | `cmp` / `radiff2` | Structural binary differ identifying patch blocks and byte sequence displacements | `oobindiff --mcp` (`bindiff_compare`, `bindiff_hunks`, `bindiff_similarity`, `bindiff_stats`) | `curl -fsSL https://tools.openooda.org/oobindiff/install.sh \| bash` |
 | **[ooborder](https://github.com/openOODA-tools/ooborder)** | `boxes` / border tools | Wraps stdin/file text blocks inside configurable border frames with titles and alignment | `ooborder --mcp` (`border_wrap`, `border_styles`, `border_stats`) | `curl -fsSL https://tools.openooda.org/ooborder/install.sh \| bash` |
+| **[oobound](https://github.com/openOODA-tools/oobound)** | `prlimit` / `ulimit` / cgroups | Dynamic memory, CPU cycle, and file descriptor clamp for unvetted subprocesses | `oobound --mcp` (`bound_profile`, `bound_clamp`, `bound_audit`, `bound_stats`) | `curl -fsSL https://tools.openooda.org/oobound/install.sh \| bash` |
 
 ---
 

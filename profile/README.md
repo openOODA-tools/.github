@@ -90,6 +90,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocmp](https://github.com/openOODA-tools/oocmp)** | `cmp` | Instant byte-by-byte file comparison reporting first byte difference, line count, and octal diffs | `oocmp --mcp` (`cmp_compare`, `cmp_diff_list`, `cmp_are_identical`, `cmp_similarity`, `cmp_audit`) | `curl -fsSL https://tools.openooda.org/oocmp/install.sh \| bash` |
 | **[oocol](https://github.com/openOODA-tools/oocol)** | `col` | Reverse line feed filter removing backspaces, half-line feeds, and overstrikes from terminal output | `oocol --mcp` (`col_filter`, `col_strip_backspaces`, `col_clean_man`, `col_tab_convert`, `col_inspect`) | `curl -fsSL https://tools.openooda.org/oocol/install.sh \| bash` |
 | **[oocolor](https://github.com/openOODA-tools/oocolor)** | `pastel` / `colordiff` | Converts between HEX, RGB, HSL, CMYK, and ANSI 256 with TrueColor swatches and WCAG contrast audits | `oocolor --mcp` (`color_convert`, `color_contrast`, `color_palette`, `color_blend`, `color_inspect`) | `curl -fsSL https://tools.openooda.org/oocolor/install.sh \| bash` |
+| **[oocolrm](https://github.com/openOODA-tools/oocolrm)** | `colrm` | Removes selected character columns from line streams with tab expansion and slice extraction | `oocolrm --mcp` (`colrm_strip`, `colrm_slice`, `colrm_replace`, `colrm_inspect`, `colrm_stats`) | `curl -fsSL https://tools.openooda.org/oocolrm/install.sh \| bash` |
 
 ---
 

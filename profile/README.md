@@ -89,6 +89,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooclear](https://github.com/openOODA-tools/ooclear)** | `clear` | High-performance screen clearing and scrollback purge with VT100/ANSI compliance | `ooclear --mcp` (`clear_screen`, `clear_scrollback`, `clear_reset`, `clear_sequences`, `clear_audit`) | `curl -fsSL https://tools.openooda.org/ooclear/install.sh \| bash` |
 | **[oocmp](https://github.com/openOODA-tools/oocmp)** | `cmp` | Instant byte-by-byte file comparison reporting first byte difference, line count, and octal diffs | `oocmp --mcp` (`cmp_compare`, `cmp_diff_list`, `cmp_are_identical`, `cmp_similarity`, `cmp_audit`) | `curl -fsSL https://tools.openooda.org/oocmp/install.sh \| bash` |
 | **[oocol](https://github.com/openOODA-tools/oocol)** | `col` | Reverse line feed filter removing backspaces, half-line feeds, and overstrikes from terminal output | `oocol --mcp` (`col_filter`, `col_strip_backspaces`, `col_clean_man`, `col_tab_convert`, `col_inspect`) | `curl -fsSL https://tools.openooda.org/oocol/install.sh \| bash` |
+| **[oocolor](https://github.com/openOODA-tools/oocolor)** | `pastel` / `colordiff` | Converts between HEX, RGB, HSL, CMYK, and ANSI 256 with TrueColor swatches and WCAG contrast audits | `oocolor --mcp` (`color_convert`, `color_contrast`, `color_palette`, `color_blend`, `color_inspect`) | `curl -fsSL https://tools.openooda.org/oocolor/install.sh \| bash` |
 
 ---
 

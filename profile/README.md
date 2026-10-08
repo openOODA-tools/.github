@@ -125,6 +125,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oogrepz](https://github.com/openOODA-tools/oogrepz)** | `zgrep` / `bzgrep` | Sovereign compressed stream search across gzip, bzip2, xz, and zstd archives with zero ambient authority in pure openOODA | `oogrepz --mcp` (`grepz_search`, `grepz_count`, `grepz_detect`, `grepz_files`, `grepz_demo`) | `curl -fsSL https://tools.openooda.org/oogrepz/install.sh \| bash` |
 | **[ooguard](https://github.com/openOODA-tools/ooguard)** | guardrail / sec | Sovereign prompt injection and destructive command guardrail filtering agent tool arguments in pure openOODA | `ooguard --mcp` (`guard_check_command`, `guard_check_prompt`, `guard_sanitize`, `guard_audit_rules`, `guard_demo`) | `curl -fsSL https://tools.openooda.org/ooguard/install.sh \| bash` |
 | **[oogzip](https://github.com/openOODA-tools/oogzip)** | `gzip` / `pigz` | Sovereign DEFLATE compression engine and RFC 1952 container with stream headers in pure openOODA | `oogzip --mcp` (`gzip_compress`, `gzip_decompress`, `gzip_inspect`, `gzip_test`, `gzip_demo`) | `curl -fsSL https://tools.openooda.org/oogzip/install.sh \| bash` |
+| **[oohash](https://github.com/openOODA-tools/oohash)** | `b3sum` / `sha256sum` | Sovereign simultaneous multi-algorithm cryptographic digest engine (BLAKE3, SHA-256, SHA3-512) in pure openOODA | `oohash --mcp` (`hash_digest`, `hash_file`, `hash_verify`, `hash_benchmark`, `hash_demo`) | `curl -fsSL https://tools.openooda.org/oohash/install.sh \| bash` |
 
 ---
 

@@ -86,6 +86,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oochmod](https://github.com/openOODA-tools/oochmod)** | `chmod` | Applies octal and symbolic permission masks with systemd-tmpfiles declarative synthesis | `oochmod --mcp` (`chmod_parse`, `chmod_inspect`, `chmod_plan`, `chmod_tmpfiles`, `chmod_audit`) | `curl -fsSL https://tools.openooda.org/oochmod/install.sh \| bash` |
 | **[oochown](https://github.com/openOODA-tools/oochown)** | `chown` | Changes user and group ownership of filesystem objects with systemd-tmpfiles declarative synthesis | `oochown --mcp` (`chown_resolve`, `chown_inspect`, `chown_plan`, `chown_tmpfiles`, `chown_audit`) | `curl -fsSL https://tools.openooda.org/oochown/install.sh \| bash` |
 | **[oochroot](https://github.com/openOODA-tools/oochroot)** | `chroot` | Sets up capability-bounded root filesystem jails with systemd service confinement synthesis | `oochroot --mcp` (`chroot_inspect`, `chroot_plan`, `chroot_systemd`, `chroot_audit`, `chroot_verify`) | `curl -fsSL https://tools.openooda.org/oochroot/install.sh \| bash` |
+| **[ooclear](https://github.com/openOODA-tools/ooclear)** | `clear` | High-performance screen clearing and scrollback purge with VT100/ANSI compliance | `ooclear --mcp` (`clear_screen`, `clear_scrollback`, `clear_reset`, `clear_sequences`, `clear_audit`) | `curl -fsSL https://tools.openooda.org/ooclear/install.sh \| bash` |
 
 ---
 

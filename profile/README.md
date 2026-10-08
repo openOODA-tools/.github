@@ -50,6 +50,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooalias](https://github.com/openOODA-tools/ooalias)** | `alias` | Cryptographically verifiable command macro and alias resolver with scope isolation | `ooalias --mcp` (`alias_resolve`, `alias_list`, `alias_verify`) | `curl -fsSL https://tools.openooda.org/ooalias/install.sh \| bash` |
 | **[ooansi](https://github.com/openOODA-tools/ooansi)** | ANSI sequence generator | TrueColor RGB formatting, 256-color indexed palettes, cursor navigation, text sanitizer | `ooansi --mcp` (`ansi_generate`, `ansi_strip`, `ansi_cursor`) | `curl -fsSL https://tools.openooda.org/ooansi/install.sh \| bash` |
 | **[ooapparmor](https://github.com/openOODA-tools/ooapparmor)** | `apparmor_parser` | Capability-bounded AppArmor profile generator & confinement auditor, negative trust enforcement | `ooapparmor --mcp` (`apparmor_generate`, `apparmor_verify`) | `curl -fsSL https://tools.openooda.org/ooapparmor/install.sh \| bash` |
+| **[ooarchive](https://github.com/openOODA-tools/ooarchive)** | `tar` / `cpio` / `ar` | Deterministic reproducible archive builder, byte-for-byte outputs across TAR/CPIO/AR | `ooarchive --mcp` (`archive_list`, `archive_inspect`, `archive_verify_path`) | `curl -fsSL https://tools.openooda.org/ooarchive/install.sh \| bash` |
 
 ---
 

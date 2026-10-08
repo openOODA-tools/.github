@@ -70,6 +70,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobattery](https://github.com/openOODA-tools/oobattery)** | `acpi` / `upower` | Reads ACPI battery charge level, energy consumption rate, and health condition | `oobattery --mcp` (`battery_status`, `battery_health`, `battery_list`, `battery_stats`) | `curl -fsSL https://tools.openooda.org/oobattery/install.sh \| bash` |
 | **[oobiew](https://github.com/openOODA-tools/oobiew)** | `biew` / `objdump` | Interactive binary and ELF executable dissector showing headers, symbols, and code | `oobiew --mcp` (`biew_detect`, `biew_elf`, `biew_hexdump`, `biew_stats`) | `curl -fsSL https://tools.openooda.org/oobiew/install.sh \| bash` |
 | **[oobinary](https://github.com/openOODA-tools/oobinary)** | `dd` / `xxd` / bit tools | Bit-level endianness converter, bitmask applicator, and stream aligner | `oobinary --mcp` (`binary_endian`, `binary_mask`, `binary_align`, `binary_bits`, `binary_stats`) | `curl -fsSL https://tools.openooda.org/oobinary/install.sh \| bash` |
+| **[oobindiff](https://github.com/openOODA-tools/oobindiff)** | `cmp` / `radiff2` | Structural binary differ identifying patch blocks and byte sequence displacements | `oobindiff --mcp` (`bindiff_compare`, `bindiff_hunks`, `bindiff_similarity`, `bindiff_stats`) | `curl -fsSL https://tools.openooda.org/oobindiff/install.sh \| bash` |
 
 ---
 

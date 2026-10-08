@@ -74,6 +74,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooborder](https://github.com/openOODA-tools/ooborder)** | `boxes` / border tools | Wraps stdin/file text blocks inside configurable border frames with titles and alignment | `ooborder --mcp` (`border_wrap`, `border_styles`, `border_stats`) | `curl -fsSL https://tools.openooda.org/ooborder/install.sh \| bash` |
 | **[oobound](https://github.com/openOODA-tools/oobound)** | `prlimit` / `ulimit` / cgroups | Dynamic memory, CPU cycle, and file descriptor clamp for unvetted subprocesses | `oobound --mcp` (`bound_profile`, `bound_clamp`, `bound_audit`, `bound_stats`) | `curl -fsSL https://tools.openooda.org/oobound/install.sh \| bash` |
 | **[ooboundary](https://github.com/openOODA-tools/ooboundary)** | `iptables` / `nftables` / ufw | Hardware enforced kernel netfilter hook restricting agent sockets to allowed IPs | `ooboundary --mcp` (`boundary_profile`, `boundary_generate`, `boundary_audit`, `boundary_stats`) | `curl -fsSL https://tools.openooda.org/ooboundary/install.sh \| bash` |
+| **[oobson](https://github.com/openOODA-tools/oobson)** | `bsondump` / `bson` | Binary JSON encoder and decoder with bson-to-json streaming converters | `oobson --mcp` (`bson_decode`, `bson_encode`, `bson_inspect`, `bson_stats`) | `curl -fsSL https://tools.openooda.org/oobson/install.sh \| bash` |
 
 ---
 

@@ -97,6 +97,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocpuinfo](https://github.com/openOODA-tools/oocpuinfo)** | `lscpu` | Hardware CPU topology, instruction set extensions, cache geometry, and vulnerability mitigation auditor in pure openOODA | `oocpuinfo --mcp` (`cpuinfo_summary`, `cpuinfo_topology`, `cpuinfo_flags`, `cpuinfo_vulnerabilities`, `cpuinfo_cache`, `cpuinfo_demo`) | `curl -fsSL https://tools.openooda.org/oocpuinfo/install.sh \| bash` |
 | **[oocrc32](https://github.com/openOODA-tools/oocrc32)** | `crc32` / `cksum` | Cyclic redundancy check generator and manifest verifier with multi-polynomial evaluation in pure openOODA | `oocrc32 --mcp` (`crc32_calculate`, `crc32_verify`, `crc32_check_file`, `crc32_polynomials`, `crc32_demo`) | `curl -fsSL https://tools.openooda.org/oocrc32/install.sh \| bash` |
 | **[oocron](https://github.com/openOODA-tools/oocron)** | `cron` / `crond` | Pure systemd timer scheduler replacing legacy cron with journald integration and hardened oneshot services in pure openOODA | `oocron --mcp` (`cron_to_systemd`, `cron_validate`, `cron_macros`, `cron_demo`) | `curl -fsSL https://tools.openooda.org/oocron/install.sh \| bash` |
+| **[oocsplt](https://github.com/openOODA-tools/oocsplt)** | `csplit` | POSIX context splitter and stream partitioner matching regex delimiters and line bounds in pure openOODA | `oocsplt --mcp` (`csplt_split`, `csplt_preview`, `csplt_by_lines`, `csplt_by_pattern`, `csplt_demo`) | `curl -fsSL https://tools.openooda.org/oocsplt/install.sh \| bash` |
 
 ---
 

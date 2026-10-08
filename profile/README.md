@@ -69,6 +69,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobatch](https://github.com/openOODA-tools/oobatch)** | `batch` / `at -b` | Non-interactive batch job manager queueing tasks when system load factor drops | `oobatch --mcp` (`batch_enqueue`, `batch_list`, `batch_cancel`, `batch_load`, `batch_stats`) | `curl -fsSL https://tools.openooda.org/oobatch/install.sh \| bash` |
 | **[oobattery](https://github.com/openOODA-tools/oobattery)** | `acpi` / `upower` | Reads ACPI battery charge level, energy consumption rate, and health condition | `oobattery --mcp` (`battery_status`, `battery_health`, `battery_list`, `battery_stats`) | `curl -fsSL https://tools.openooda.org/oobattery/install.sh \| bash` |
 | **[oobiew](https://github.com/openOODA-tools/oobiew)** | `biew` / `objdump` | Interactive binary and ELF executable dissector showing headers, symbols, and code | `oobiew --mcp` (`biew_detect`, `biew_elf`, `biew_hexdump`, `biew_stats`) | `curl -fsSL https://tools.openooda.org/oobiew/install.sh \| bash` |
+| **[oobinary](https://github.com/openOODA-tools/oobinary)** | `dd` / `xxd` / bit tools | Bit-level endianness converter, bitmask applicator, and stream aligner | `oobinary --mcp` (`binary_endian`, `binary_mask`, `binary_align`, `binary_bits`, `binary_stats`) | `curl -fsSL https://tools.openooda.org/oobinary/install.sh \| bash` |
 
 ---
 

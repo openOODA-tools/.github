@@ -67,6 +67,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oobasename](https://github.com/openOODA-tools/oobasename)** | `basename` | Strips directory prefixes and optional file extensions from path strings | `oobasename --mcp` (`basename_strip`, `basename_batch`, `basename_stats`) | `curl -fsSL https://tools.openooda.org/oobasename/install.sh \| bash` |
 | **[oobash](https://github.com/openOODA-tools/oobash)** | `bash` / `sh` | Sovereign POSIX shell compatibility compiler and capability security auditor | `oobash --mcp` (`bash_audit`, `bash_transpile`, `bash_ast`, `bash_stats`) | `curl -fsSL https://tools.openooda.org/oobash/install.sh \| bash` |
 | **[oobatch](https://github.com/openOODA-tools/oobatch)** | `batch` / `at -b` | Non-interactive batch job manager queueing tasks when system load factor drops | `oobatch --mcp` (`batch_enqueue`, `batch_list`, `batch_cancel`, `batch_load`, `batch_stats`) | `curl -fsSL https://tools.openooda.org/oobatch/install.sh \| bash` |
+| **[oobattery](https://github.com/openOODA-tools/oobattery)** | `acpi` / `upower` | Reads ACPI battery charge level, energy consumption rate, and health condition | `oobattery --mcp` (`battery_status`, `battery_health`, `battery_list`, `battery_stats`) | `curl -fsSL https://tools.openooda.org/oobattery/install.sh \| bash` |
 
 ---
 

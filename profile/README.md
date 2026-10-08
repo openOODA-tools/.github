@@ -103,6 +103,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oodf](https://github.com/openOODA-tools/oodf)** | `df` | Sovereign disk space and mount point storage inspector displaying block and inode capacity metrics in pure openOODA | `oodf --mcp` (`df_inspect`, `df_mounts`, `df_inodes`, `df_path`, `df_demo`) | `curl -fsSL https://tools.openooda.org/oodf/install.sh \| bash` |
 | **[oodialog](https://github.com/openOODA-tools/oodialog)** | `dialog` / `whiptail` | Sovereign TUI modal dialogue & interactive widget engine with ANSI theme styling in pure openOODA | `oodialog --mcp` (`dialog_render`, `dialog_msgbox`, `dialog_yesno`, `dialog_menu`, `dialog_checklist`, `dialog_gauge`, `dialog_demo`) | `curl -fsSL https://tools.openooda.org/oodialog/install.sh \| bash` |
 | **[oodiff3](https://github.com/openOODA-tools/oodiff3)** | `diff3` | Sovereign 3-way file comparison engine reconciling divergent branches against common ancestor baseline in pure openOODA | `oodiff3 --mcp` (`diff3_merge`, `diff3_compare`, `diff3_conflicts`, `diff3_ed_script`, `diff3_demo`) | `curl -fsSL https://tools.openooda.org/oodiff3/install.sh \| bash` |
+| **[oodig](https://github.com/openOODA-tools/oodig)** | `dig` / `nslookup` | Sovereign DNS lookup and resolver diagnostic utility with delegation walks, reverse DNS, and systemd-resolved integration in pure openOODA | `oodig --mcp` (`dig_query`, `dig_resolve`, `dig_reverse`, `dig_trace`, `dig_inspect_nameserver`, `dig_demo`) | `curl -fsSL https://tools.openooda.org/oodig/install.sh \| bash` |
 
 ---
 

@@ -57,6 +57,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[ooattest](https://github.com/openOODA-tools/ooattest)** | `tpm2_pcrread` / `tpm2_checkquote` | Attests system state and measured boot hashes using TPM2 hardware security chips | `ooattest --mcp` (`attest_status`, `attest_pcrs`, `attest_verify`, `attest_hash_pcr`) | `curl -fsSL https://tools.openooda.org/ooattest/install.sh \| bash` |
 | **[ooaudit](https://github.com/openOODA-tools/ooaudit)** | `auditd` / `syscheck` | Immutable audit recorder logging system calls, IO streams, and agent decisions | `ooaudit --mcp` (`audit_record`, `audit_verify`, `audit_query`, `audit_stats`) | `curl -fsSL https://tools.openooda.org/ooaudit/install.sh \| bash` |
 | **[ooawk](https://github.com/openOODA-tools/ooawk)** | `awk` / `gawk` | Data-driven pattern scanning and text processing language with exact arithmetic | `ooawk --mcp` (`awk_eval`, `awk_filter`, `awk_project`, `awk_stats`) | `curl -fsSL https://tools.openooda.org/ooawk/install.sh \| bash` |
+| **[oob3sum](https://github.com/openOODA-tools/oob3sum)** | `b3sum` | Blistering BLAKE3 tree hasher achieving multi-gigabyte per second throughput | `oob3sum --mcp` (`b3_hash`, `b3_verify`, `b3_stats`) | `curl -fsSL https://tools.openooda.org/oob3sum/install.sh \| bash` |
 
 ---
 

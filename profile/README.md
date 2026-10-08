@@ -93,6 +93,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocolrm](https://github.com/openOODA-tools/oocolrm)** | `colrm` | Removes selected character columns from line streams with tab expansion and slice extraction | `oocolrm --mcp` (`colrm_strip`, `colrm_slice`, `colrm_replace`, `colrm_inspect`, `colrm_stats`) | `curl -fsSL https://tools.openooda.org/oocolrm/install.sh \| bash` |
 | **[oocomm](https://github.com/openOODA-tools/oocomm)** | `comm` | Sovereign line comparator sorting two streams into column 1, column 2, and mutual column 3 with order verification | `oocomm --mcp` (`comm_compare`, `comm_common`, `comm_unique1`, `comm_unique2`, `comm_stats`) | `curl -fsSL https://tools.openooda.org/oocomm/install.sh \| bash` |
 | **[oocp](https://github.com/openOODA-tools/oocp)** | `cp` | Zero-copy clone-capable file and directory copier using io_uring, copy_file_range, and pure openOODA | `oocp --mcp` (`cp_copy_file`, `cp_copy_tree`, `cp_reflink`, `cp_inspect_source`, `cp_dry_run`) | `curl -fsSL https://tools.openooda.org/oocp/install.sh \| bash` |
+| **[oocpio](https://github.com/openOODA-tools/oocpio)** | `cpio` | Initramfs cpio format unpacker and archiver for Linux kernel boot images in pure openOODA | `oocpio --mcp` (`cpio_list_archive`, `cpio_extract_archive`, `cpio_create_archive`, `cpio_inspect_header`, `cpio_stats`) | `curl -fsSL https://tools.openooda.org/oocpio/install.sh \| bash` |
 
 ---
 

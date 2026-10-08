@@ -83,6 +83,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocgroupv2](https://github.com/openOODA-tools/oocgroupv2)** | `systemd-cgls` / `lscgroup` | Sovereign cgroup v2 slice hierarchy visualizer, PSI bottleneck analyzer, and sibling shares | `oocgroupv2 --mcp` (`cgroupv2_tree`, `cgroupv2_inspect`, `cgroupv2_psi`, `cgroupv2_controllers`, `cgroupv2_events`) | `curl -fsSL https://tools.openooda.org/oocgroupv2/install.sh \| bash` |
 | **[oochecksum](https://github.com/openOODA-tools/oochecksum)** | `sha256sum` / `md5sum` | Sovereign integrity verifier validating BSD and GNU style checksum manifests | `oochecksum --mcp` (`checksum_verify`, `checksum_generate`, `checksum_detect_format`, `checksum_audit_tree`, `checksum_hash`) | `curl -fsSL https://tools.openooda.org/oochecksum/install.sh \| bash` |
 | **[oochgrp](https://github.com/openOODA-tools/oochgrp)** | `chgrp` | Updates primary and auxiliary group associations with systemd-tmpfiles declarative synthesis | `oochgrp --mcp` (`chgrp_resolve`, `chgrp_inspect`, `chgrp_plan`, `chgrp_tmpfiles`, `chgrp_audit`) | `curl -fsSL https://tools.openooda.org/oochgrp/install.sh \| bash` |
+| **[oochmod](https://github.com/openOODA-tools/oochmod)** | `chmod` | Applies octal and symbolic permission masks with systemd-tmpfiles declarative synthesis | `oochmod --mcp` (`chmod_parse`, `chmod_inspect`, `chmod_plan`, `chmod_tmpfiles`, `chmod_audit`) | `curl -fsSL https://tools.openooda.org/oochmod/install.sh \| bash` |
 
 ---
 

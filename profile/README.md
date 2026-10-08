@@ -102,6 +102,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oocut](https://github.com/openOODA-tools/oocut)** | `cut` | POSIX column, byte, character, and delimiter-aware field stream extractor in pure openOODA | `oocut --mcp` (`cut_fields`, `cut_bytes`, `cut_characters`, `cut_slice`, `cut_demo`) | `curl -fsSL https://tools.openooda.org/oocut/install.sh \| bash` |
 | **[oodf](https://github.com/openOODA-tools/oodf)** | `df` | Sovereign disk space and mount point storage inspector displaying block and inode capacity metrics in pure openOODA | `oodf --mcp` (`df_inspect`, `df_mounts`, `df_inodes`, `df_path`, `df_demo`) | `curl -fsSL https://tools.openooda.org/oodf/install.sh \| bash` |
 | **[oodialog](https://github.com/openOODA-tools/oodialog)** | `dialog` / `whiptail` | Sovereign TUI modal dialogue & interactive widget engine with ANSI theme styling in pure openOODA | `oodialog --mcp` (`dialog_render`, `dialog_msgbox`, `dialog_yesno`, `dialog_menu`, `dialog_checklist`, `dialog_gauge`, `dialog_demo`) | `curl -fsSL https://tools.openooda.org/oodialog/install.sh \| bash` |
+| **[oodiff3](https://github.com/openOODA-tools/oodiff3)** | `diff3` | Sovereign 3-way file comparison engine reconciling divergent branches against common ancestor baseline in pure openOODA | `oodiff3 --mcp` (`diff3_merge`, `diff3_compare`, `diff3_conflicts`, `diff3_ed_script`, `diff3_demo`) | `curl -fsSL https://tools.openooda.org/oodiff3/install.sh \| bash` |
 
 ---
 

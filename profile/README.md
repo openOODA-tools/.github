@@ -108,6 +108,7 @@ Modern CLI utilities written in 100% pure openOODA. Every tool compiles to a sta
 | **[oodmesg](https://github.com/openOODA-tools/oodmesg)** | `dmesg` | Sovereign Linux kernel ring buffer diagnostic inspector with /dev/kmsg parsing, ANSI syntax coloring, and streaming MCP in pure openOODA | `oodmesg --mcp` (`dmesg_read`, `dmesg_search`, `dmesg_filter_level`, `dmesg_stats`, `dmesg_demo`) | `curl -fsSL https://tools.openooda.org/oodmesg/install.sh \| bash` |
 | **[oodns](https://github.com/openOODA-tools/oodns)** | `resolvectl` / `dns` | Sovereign DNS resolver and query engine with DNS-over-HTTPS (RFC 8484) and capability allowlists in pure openOODA | `oodns --mcp` (`dns_resolve`, `dns_lookup`, `dns_reverse`, `dns_doh`, `dns_validate`, `dns_demo`) | `curl -fsSL https://tools.openooda.org/oodns/install.sh \| bash` |
 | **[oodu](https://github.com/openOODA-tools/oodu)** | `du` | Sovereign POSIX disk space estimator and directory tree capacity analyzer with top hogs visualization in pure openOODA | `oodu --mcp` (`du_analyze`, `du_top`, `du_inodes`, `du_summary`, `du_demo`) | `curl -fsSL https://tools.openooda.org/oodu/install.sh \| bash` |
+| **[ooenv](https://github.com/openOODA-tools/ooenv)** | `env` | Sovereign POSIX environment variable controller, secret sanitizer, and execution simulator with systemd unit drop-in generator in pure openOODA | `ooenv --mcp` (`env_list`, `env_get`, `env_simulate`, `env_audit`, `env_systemd`, `env_demo`) | `curl -fsSL https://tools.openooda.org/ooenv/install.sh \| bash` |
 
 ---
 
